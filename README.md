@@ -1,2 +1,2 @@
 # Timer-Js-Events-Practice
-I developed a basic timer application using HTML, CSS, and JavaScript, which enhanced my understanding of the DOM and event handling
+I developed a basic timer application using HTML, CSS, and JavaScript. This project not only improved my proficiency with these technologies but also provided me with a deeper understanding of the Document Object Model (DOM) and event handling. The application features  start, stop functions  which helped me gain practical experience in managing user interactions and dynamic updates in a web environment
