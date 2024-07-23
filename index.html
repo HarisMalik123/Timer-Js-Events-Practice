@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Grid Example</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <span class="inline-text" id="h">00h</span>
+  <span class="inline-text" id="min">00m</span>
+  <span class="inline-text" id="second">00s</span>
+<form >
+
+<input type="text" name="Hours" id="hr" class="time" placeholder="Enter Hours">
+<input type="text" name="Minutes" id="m" class="time" placeholder="Enter Minutes">
+<input type="text" name="Second" id="s" class="time" placeholder="Enter Seconds">
+
+<div >
+<input type="submit" value="Submit" id="submit" class="btn">
+</div>
+
+</form>
+<button class="btn" id="stop">Stop</button>
+<button class="btn" id="cont">Continue</button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
